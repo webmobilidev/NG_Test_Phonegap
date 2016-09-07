@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.gpc.Studio120Test2" version="4.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.gpc.Studio120Test2" version="4.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Studio 120 Test</name>
     <description>
       TEST- Push nuove
@@ -15,7 +15,7 @@
     <preference name="StatusBarStyle" value="blacktranslucent" />
     <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.1" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
-    <icon src="icons.png" />
+    <icon src="/www/icons.png" />
     <platform name="android">
         <icon density="ldpi" src="www/res/icons/android/icon-36-ldpi.png" />
         <icon density="mdpi" src="www/res/icons/android/icon-48-mdpi.png" />
