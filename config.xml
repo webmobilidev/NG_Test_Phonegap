@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Hello World</name>
+<widget id="com.gpc.Studio120Test2" version="4.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Studio 120 Test</name>
     <description>
-        Push sample application that receives push notifications.
+      TEST- Push nuove
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="info@gpchannel.com" href="http://www.gpchannel.com">
+        Global Product Channel
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
