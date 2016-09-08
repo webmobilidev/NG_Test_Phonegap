@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.gpc.NG_Test_Phonegap_guidetti" version="4.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Studio 120 Test</name>
+    <name>Guidetti NG Test</name>
     <description>
       Next gen App con negozio guidetto
     </description>
