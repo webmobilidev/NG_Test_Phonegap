@@ -148,7 +148,7 @@ function DeviceInitializator() {
         else
           pushNotification.register(tokenHandler, errorHandler, { "badge": "true", "sound": "true", "alert": "true", "ecb": "pushManager.onNotificationAPN" });	// required!
       } 
-      catch {
+      catch(error) {
         var push = PushNotification.init({
           android: {
               senderID: appID
