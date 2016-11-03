@@ -15,9 +15,10 @@
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#ee6e73" />
-    <preference name="StatusBarStyle" value="blacktranslucent" />
-    <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.1" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <gap:plugin name="com.phonegap.plugin.statusbar" />    <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.1" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
     <icon src="icon.png" />
     <platform name="android">
@@ -104,6 +105,7 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+        <allow-intent href="map:*" />
     </platform>
     <plugin name="phonegap-plugin-push">
         <param name="SENDER_ID" value="XXXXXXX" />
