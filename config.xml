@@ -86,7 +86,7 @@
         <allow-intent href="itms-apps:*" />
         <allow-intent href="maps:*" />
     </platform>
-    <plugin name="phonegap-plugin-push">
+    <plugin name="phonegap-plugin-push" spec="1.9">
         <param name="SENDER_ID" value="XXXXXXX" />
     </plugin>
     <plugin name="cordova-plugin-device" spec="~1.1.2" />
