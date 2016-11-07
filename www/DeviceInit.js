@@ -141,14 +141,14 @@ function DeviceInitializator() {
     if (typeof onDevice !== 'undefined') {
       pushManager = new PushManager(tpID, domain);
       var appID = pushManager.getAppID(tpID);
-      try{
+      /*try{
         pushNotification = window.plugins.pushNotification;
         if (device.platform == 'android' || device.platform == 'Android' || device.platform == 'amazon-fireos')
           pushNotification.register(successHandler, errorHandler, { "senderID": appID, "ecb": "pushManager.onNotification" });		// required!
         else
           pushNotification.register(tokenHandler, errorHandler, { "badge": "true", "sound": "true", "alert": "true", "ecb": "pushManager.onNotificationAPN" });	// required!
-      } 
-      catch(error) {
+      } */
+      //catch(error) {
         var push = PushNotification.init({
           android: {
               senderID: appID
@@ -180,7 +180,7 @@ function DeviceInitializator() {
             // data.image,
             // data.additionalData
         });
-      }
+      //}
     }
 
     /** Istanza di TP_MobileEngine */
