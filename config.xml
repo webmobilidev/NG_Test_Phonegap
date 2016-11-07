@@ -14,10 +14,10 @@
     <preference name="target-device" value="universal" />
     <preference name="android-minSdkVersion" value="19" />
     <feature name="StatusBar">
-            <param name="ios-package" value="CDVStatusBar" onload="true" />
+        <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
     <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#165769" /> <!--Your color value will go here-->
+    <preference name="StatusBarBackgroundColor" value="#165769" />
     <preference name="StatusBarStyle" value="lightcontent" />
     <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.1" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
@@ -86,12 +86,9 @@
         <allow-intent href="itms-apps:*" />
         <allow-intent href="maps:*" />
     </platform>
-    <plugin name="phonegap-plugin-push" spec="1.9">
-        <param name="SENDER_ID" value="XXXXXXX" />
-    </plugin>
-    <feature name="PushPlugin">
-      <param name="ios-package" value="PushPlugin" />
-    </feature>
     <plugin name="cordova-plugin-device" spec="~1.1.2" />
     <plugin name="cordova-plugin-network-information" spec="~1.2.1" />
+    <plugin name="phonegap-plugin-push" spec="~1.8.4">
+        <variable name="SENDER_ID" value="XXXXXX" />
+    </plugin>
 </widget>

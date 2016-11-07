@@ -1,7 +1,7 @@
 {
     "GoogleCloudMessaging": null,
     "GGLInstanceID": null,
-    "AddressBook.framework": 1,
-    "libsqlite3.tbd": 1,
-    "libz.tbd": 1
+    "AddressBook.framework": 2,
+    "libsqlite3.tbd": 2,
+    "libz.tbd": 2
 }
