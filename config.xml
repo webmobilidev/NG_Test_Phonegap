@@ -94,9 +94,10 @@
     </plugin>
     <plugin name="cordova-custom-config" spec="~3.0.14" />
     <config-file parent="UIStatusBarHidden" platform="ios" target="*-Info.plist">
-        <true/>
+        <true />
     </config-file>
     <config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist">
-        <false/>
+        <false />
     </config-file>
+    <plugin name="cordova-plugin-inappbrowser" spec="~1.5.0" />
 </widget>
