@@ -159,7 +159,8 @@ function DeviceInitializator() {
           ios: {
               alert: "true",
               badge: "true",
-              sound: "false"
+              sound: "false",
+              clearBadge: "true"
           },
           windows: {}
         });
@@ -179,6 +180,9 @@ function DeviceInitializator() {
             // data.sound,
             // data.image,
             // data.additionalData
+            push.finish(function() {
+                console.log("processing of push data is finished");
+            });
         });
       }
     }
