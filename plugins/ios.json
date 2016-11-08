@@ -8,7 +8,7 @@
     },
     "installed_plugins": {
         "phonegap-plugin-push": {
-            "SENDER_ID": "XXXXXX",
+            "SENDER_ID": "xxxx",
             "PACKAGE_NAME": "com.gpc.NGTestPhonegapGuidetti"
         }
     },

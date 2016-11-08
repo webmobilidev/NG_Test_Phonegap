@@ -46,7 +46,7 @@
         },
         "is_top_level": true,
         "variables": {
-            "SENDER_ID": "XXXXXX"
+            "SENDER_ID": "xxxx"
         }
     }
 }

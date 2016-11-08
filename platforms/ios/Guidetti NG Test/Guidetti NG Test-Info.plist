@@ -58,7 +58,7 @@
       <string>remote-notification</string>
     </array>
     <key>GCM_SENDER_ID</key>
-    <string>XXXXXX</string>
+    <string>xxxx</string>
     <key>IS_GCM_ENABLED</key>
     <true/>
   </dict>

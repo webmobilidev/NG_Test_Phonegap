@@ -15,6 +15,9 @@
         <param name="ios-package" value="CDVGestureHandler" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="PushNotification">
+        <param name="ios-package" value="PushPlugin" />
+    </feature>
     <name>Guidetti NG Test</name>
     <description>
       Next gen App con negozio guidetto
@@ -22,6 +25,8 @@
     <author email="info@gpchannel.com" href="http://www.gpchannel.com">
         Global Product Channel
     </author>
+    <access launch-external="yes" origin="maps:*" />
+    <access launch-external="yes" origin="geo:*" />
     <content src="index.html" />
     <icon src="icon.png" />
     <access origin="*" />
@@ -80,9 +85,5 @@
     <preference name="target-device" value="universal" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#165769" />
     <preference name="StatusBarStyle" value="lightcontent" />
-    <feature name="PushNotification">
-        <param name="ios-package" value="PushPlugin" />
-    </feature>
 </widget>

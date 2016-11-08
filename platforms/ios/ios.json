@@ -25,7 +25,7 @@
                     ],
                     "GCM_SENDER_ID": [
                         {
-                            "xml": "<string>XXXXXX</string>",
+                            "xml": "<string>xxxx</string>",
                             "count": 1
                         }
                     ],
@@ -41,7 +41,7 @@
     },
     "installed_plugins": {
         "phonegap-plugin-push": {
-            "SENDER_ID": "XXXXXX",
+            "SENDER_ID": "xxxx",
             "PACKAGE_NAME": "com.gpc.NGTestPhonegapGuidetti"
         }
     },
