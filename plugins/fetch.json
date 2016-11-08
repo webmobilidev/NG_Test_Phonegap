@@ -48,5 +48,13 @@
         "variables": {
             "SENDER_ID": "xxxx"
         }
+    },
+    "cordova-custom-config": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-custom-config"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }
