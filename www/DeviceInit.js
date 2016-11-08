@@ -159,7 +159,7 @@ function DeviceInitializator() {
           ios: {
               alert: "true",
               badge: "true",
-              sound: "false",
+              sound: "default",
               clearBadge: "true"
           },
           windows: {}
