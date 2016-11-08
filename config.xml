@@ -29,12 +29,6 @@
         <icon density="hdpi" src="www/res/icons/android/icon-72-hdpi.png" />
         <icon density="xhdpi" src="www/res/icons/android/icon-96-xhdpi.png" />
         <icon density="xxhdpi" src="www/res/icons/android/512.png" />
-        <splash density="land-ldpi" src="www/res/screen/android/screen-ldpi-landscape.png" />
-        <splash density="land-mdpi" src="www/res/screen/android/screen-mdpi-landscape.png" />
-        <splash density="land-hdpi" src="www/res/screen/android/screen-hdpi-landscape.png" />
-        <splash density="land-xhdpi" src="www/res/screen/android/screen-xhdpi-landscape.png" />
-        <splash density="land-xxhdpi" src="www/res/screen/android/drawable-land-xxhdpi-screen.png" />
-        <splash density="land-xxxhdpi" src="www/res/screen/android/drawable-land-xxxhdpi-screen.png" />
         <splash density="port-ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
         <splash density="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
         <splash density="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
@@ -64,9 +58,6 @@
         <splash height="1136" platform="ios" src="www/res/screen/ios/Default-568h@2x~iphone.png" width="640" />
         <splash height="1334" platform="ios" src="www/res/screen/ios/Default-667h.png" width="750" />
         <splash height="2208" platform="ios" src="www/res/screen/ios/Default-736h.png" width="1242" />
-        <splash height="1242" platform="ios" src="www/res/screen/ios/Default-Landscape-736h.png" width="2208" />
-        <splash height="1536" platform="ios" src="www/res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" />
-        <splash height="768" platform="ios" src="www/res/screen/ios/Default-Landscape~ipad.png" width="1024" />
         <splash height="2048" platform="ios" src="www/res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" />
         <splash height="1024" platform="ios" src="www/res/screen/ios/Default-Portrait~ipad.png" width="768" />
         <splash height="960" platform="ios" src="www/res/screen/ios/Default@2x~iphone.png" width="640" />
