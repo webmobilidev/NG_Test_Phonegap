@@ -117,6 +117,7 @@ function DeviceInitializator() {
   document.addEventListener("deviceReady", function () {
     checkConnection();  // se non ho la connessione fallback
     gapReady.resolve();
+    StatusBar.hide();
   }, false);
 
 
