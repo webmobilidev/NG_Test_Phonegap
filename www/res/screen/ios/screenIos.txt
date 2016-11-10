@@ -1,0 +1,12 @@
+Default-568h@2x~iphone.png
+Default-667h.png
+Default-736h.png
+Default-Portrait@2x~ipad.png
+Default-Portrait~ipad.png
+Default@2x~iphone.png
+Default~iphone.png
+screen-ipad-portrait-2x.png
+screen-ipad-portrait.png
+screen-iphone-portrait-2x.png
+screen-iphone-portrait-568h-2x.png
+screen-iphone-portrait.png
