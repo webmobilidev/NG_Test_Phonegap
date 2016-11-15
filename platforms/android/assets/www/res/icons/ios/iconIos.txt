@@ -1,0 +1,15 @@
+icon-1024.png
+icon-40-2x.png
+icon-40.png
+icon-48.png
+icon-512.png
+icon-57-2x.png
+icon-57.png
+icon-60-2x.png
+icon-60.png
+icon-72-2x.png
+icon-72.png
+icon-76-2x.png
+icon-76.png
+icon-small-2x.png
+icon-small.png
