@@ -1,0 +1,6 @@
+screen-xxhdpi-portrait.png
+screen-xxxhdpi-portrait.png
+screen-hdpi-portrait.png
+screen-ldpi-portrait.png
+screen-mdpi-portrait.png
+screen-xhdpi-portrait.png
