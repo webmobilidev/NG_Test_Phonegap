@@ -24,6 +24,13 @@
         },
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "com.gpc.NGTestPhonegapGuidetti"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.gpc.NGTestPhonegapGuidetti"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "xxxxx",
+            "PACKAGE_NAME": "com.gpc.NGTestPhonegapGuidetti"
         }
     },
     "dependent_plugins": {}

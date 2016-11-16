@@ -28,6 +28,9 @@
         },
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "com.gpc.NGTestPhonegapGuidetti"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.gpc.NGTestPhonegapGuidetti"
         }
     },
     "dependent_plugins": {}
