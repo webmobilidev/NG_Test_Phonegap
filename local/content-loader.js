@@ -11,7 +11,7 @@ function ContentLoader(){
     }  
   }
   function loadShopInfo(){
-    $.get('/shop/contacts.html', function(data){
+    $.get('local/shop/contacts.html', function(data){
       if($(data).length > 0){
         $(data).appendTo($('#mainLogo'))
       }    
