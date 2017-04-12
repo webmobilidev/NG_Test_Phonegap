@@ -754,3 +754,9 @@ div.ps-toolbar-play div.ps-toolbar-content {
         background-color: transparent;
     }
 }
+div#contacts-shop,div#alert {
+    text-align: center;
+    font-size: 30px;
+    text-shadow: none;
+    color: white;
+}
