@@ -14,5 +14,5 @@ function ContentLoader(){
   constructor();
 }
 (function () {
-  var c-loader = new ContentLoader();
+  var c_loader = new ContentLoader();
 }());
