@@ -741,14 +741,14 @@ div.ps-toolbar-play div.ps-toolbar-content {
 
 /* Offline Simple Layout */
 #foo > .ui-body-c {
-    background-image: url(shop/background.jpg);
+    background-image: url(/shop/background.jpg);
     background-position: center center;
     background-size: cover;
     background-color: transparent;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
     #foo > .ui-body-c {
-        background-image: url(shop/background_highres.jpg);
+        background-image: url(/shop/background_highres.jpg);
         background-position: top center;
         background-size: cover;
         background-color: transparent;
