@@ -13,3 +13,6 @@ function ContentLoader(){
   
   constructor();
 }
+(function () {
+  var c-loader = new ContentLoader();
+}());
