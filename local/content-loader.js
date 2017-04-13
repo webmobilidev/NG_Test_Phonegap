@@ -1,11 +1,11 @@
 function ContentLoader(){
   var constructor = function(){
-    setInterval(function(){checkValidation(navigator.connection.type);},30000);
+    setInterval(function(){checkValidation(navigator.connection);},30000);
     loadShopInfo();
   }
   
   function checkValidation(connection){
-    if((connection != "none" && connection != "unknown")){
+    if(($(connection).type != "none" && $(connection).type != "unknown" && typeof $(connection) !== "undefined")){
       console.log("refreshato");
       window.location.href = 'index.html';    
     }  
