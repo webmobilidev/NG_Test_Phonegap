@@ -5,7 +5,7 @@ function ContentLoader(){
   }
   
   function checkValidation(connection){
-    if(($(connection).type != "none" && $(connection).type != "unknown" && typeof $(connection) !== "undefined")){
+    if(($(connection).type != "none" && $(connection).type != "unknown" && !isUndefined(connection)){
       console.log("refreshato");
       window.location.href = 'index.html';    
     }  
@@ -18,6 +18,10 @@ function ContentLoader(){
     });
   }
   constructor();
+  
+  function isUndefined(obj){
+    return typeof $(connection) === "undefined");
+  }
 }
 (function () {
   var c_loader = new ContentLoader();
