@@ -31,7 +31,14 @@
         "phonegap-plugin-push": {
             "SENDER_ID": "xxxxx",
             "PACKAGE_NAME": "com.gpc.NGTestPhonegapGuidetti"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.gpc.NGTestPhonegapGuidetti"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.gpc.NGTestPhonegapGuidetti"
+        }
+    }
 }
