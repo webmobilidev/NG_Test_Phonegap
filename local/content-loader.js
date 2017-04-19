@@ -20,7 +20,7 @@ function ContentLoader(){
   constructor();
   
   function isUndefined(obj){
-    return typeof $(connection) === "undefined";
+    return typeof $(obj) === "undefined";
   }
 }
 (function () {
