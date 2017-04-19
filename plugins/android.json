@@ -10,6 +10,9 @@
         "cordova-custom-config": {
             "PACKAGE_NAME": "com.gpc.NGTestPhonegapGuidetti"
         },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.gpc.NGTestPhonegapGuidetti"
+        },
         "cordova-plugin-device": {
             "PACKAGE_NAME": "com.gpc.NGTestPhonegapGuidetti"
         },
@@ -30,9 +33,6 @@
         },
         "phonegap-plugin-push": {
             "SENDER_ID": "xxxxx",
-            "PACKAGE_NAME": "com.gpc.NGTestPhonegapGuidetti"
-        },
-        "cordova-plugin-contacts": {
             "PACKAGE_NAME": "com.gpc.NGTestPhonegapGuidetti"
         }
     },

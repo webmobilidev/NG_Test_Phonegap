@@ -158,11 +158,11 @@ module.exports.metadata =
     "cordova-custom-config": "3.0.14",
     "cordova-plugin-compat": "1.1.0",
     "cordova-plugin-contacts": "2.3.0",
-    "cordova-plugin-device": "1.1.3",
+    "cordova-plugin-device": "1.1.5",
     "cordova-plugin-dialogs": "1.2.1",
     "cordova-plugin-inappbrowser": "1.5.0",
     "cordova-plugin-network-information": "1.2.1",
-    "cordova-plugin-statusbar": "2.2.0",
+    "cordova-plugin-statusbar": "2.2.2",
     "cordova-plugin-whitelist": "1.2.2",
     "phonegap-plugin-push": "1.8.4"
 };
