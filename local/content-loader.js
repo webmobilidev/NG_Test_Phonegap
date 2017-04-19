@@ -25,4 +25,4 @@ function ContentLoader(){
 }
 (function () {
   var c_loader = new ContentLoader();
-}());
+});
