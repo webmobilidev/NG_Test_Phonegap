@@ -5,7 +5,7 @@ function ContentLoader(){
   }
   
   function checkValidation(connection){
-    if(($(connection).type != "none" && $(connection).type != "unknown" && !isUndefined(connection)){
+    if($(connection).type != "none" && $(connection).type != "unknown" && !isUndefined(connection)){
       console.log("refreshato");
       window.location.href = 'index.html';    
     }  
