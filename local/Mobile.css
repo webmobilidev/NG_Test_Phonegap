@@ -754,9 +754,18 @@ div.ps-toolbar-play div.ps-toolbar-content {
         background-color: transparent;
     }
 }
+.alert-no-connection{
+  width:60%;
+  margin: 0 auto;
+  background-color:black;
+      text-align: center;
+  padding:3%;
+}
+
 div#contacts-shop,div#alert {
     text-align: center;
     font-size: 30px;
     text-shadow: none;
     color: white;
+ 
 }
