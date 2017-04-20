@@ -761,7 +761,9 @@ div.ps-toolbar-play div.ps-toolbar-content {
       text-align: center;
   padding:3%;
 }
-
+.alert-no-connection img{
+  max-width:100%;
+}
 div#contacts-shop,div#alert {
     text-align: center;
     font-size: 30px;
