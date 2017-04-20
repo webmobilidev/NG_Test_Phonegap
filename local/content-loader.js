@@ -13,7 +13,7 @@ function ContentLoader(){
   function loadShopInfo(){
     $.get('local/shop/contacts.html', function(data){
       if($(data).length > 0){
-        $(data).appendTo($('#mainLogo'))
+        $(data).appendTo($('#alert'))
       }    
     });
   }
