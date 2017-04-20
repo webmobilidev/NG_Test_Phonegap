@@ -95,5 +95,5 @@
     <plugin name="cordova-plugin-network-information" spec="~1.2.1" />
     <plugin name="cordova-plugin-statusbar" spec="~2.2.0" />
     <engine name="ios" spec="~4.3.1" />
-    <plugin name="cordova-plugin-contacts" spec="~2.3.0" CONTACTS_USAGE_DESCRIPTION="your usage message" />
+    <plugin name="cordova-plugin-contacts" CONTACTS_USAGE_DESCRIPTION="your usage message" />
 </widget>
