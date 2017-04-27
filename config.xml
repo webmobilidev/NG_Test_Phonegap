@@ -10,6 +10,7 @@
     <access launch-external="yes" origin="maps:*" />
     <access launch-external="yes" origin="geo:*" />
     <content src="index.html" />
+    <allow-navigation href="https://www.wm4pr.com/*" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="portrait" />
