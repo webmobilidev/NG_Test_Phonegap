@@ -89,7 +89,7 @@
     </config-file>
     <config-file platform="ios" target="*-Info.plist" parent="LSApplicationQueriesSchemes">            
       <array>                
-        <string>whatsapp</string>                <!-- add more query scheme strings -->            
+        <string>whatsapp://</string>                <!-- add more query scheme strings -->            
       </array>        
     </config-file>    
   
