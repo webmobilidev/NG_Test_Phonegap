@@ -104,6 +104,6 @@
     <plugin name="cordova-plugin-statusbar" spec="~2.2.0" />
     <engine name="ios" spec="~4.3.1" />
     <plugin name="cordova-plugin-contacts" CONTACTS_USAGE_DESCRIPTION="your usage message" />
-    <plugin name="cordova-plugin-x-socialsharing" spec="~5.1.8" src="https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin" />
+    <!--<plugin name="cordova-plugin-x-socialsharing" spec="~5.1.8" src="https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin" />-->
 
 </widget>
